@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kelson Camargo</title>
+  </head>
+  <body>
+    <header>
+      <h1>Kelson Camargo</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre-min">Sobre min</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contatos">Contatos</a></li>
+          <li>
+            <a
+              href="https://www.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Google</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2 id="sobre-min">Sobre min</h2>
+      <img
+        src="https://github.com/kelsoncamargo.png"
+        alt="Foto de Kelson Camargo"
+        title="Imagem do perfil"
+      />
+      <article>
+        <p>Olá! Meu nome é Kelson Camargo, sou um desenvolvedor fullstack.</p>
+      </article>
+      <aside>
+        <h3>Habilidades</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </aside>
+    </section>
+    <section>
+      <h2 id="projetos">Projetos</h2>
+      <article>
+        <h3>Projeto 1</h3>
+        <p>Descrição do projeto 1.</p>
+      </article>
+    </section>
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Habilidade</th>
+            <th>Nível</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Avançado</td>
+            <td>Domínio completo da linguagem de marcação.</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Avançado</td>
+            <td>Habilidade em estilização e layout responsivo.</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Avançados</td>
+            <td>Conhecimento sólido em programação web e backend.</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Essas são minhas principais habilidades.</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <footer>
+      <p>Direitos reservados Kelson Camargo</p>
+      <section>
+        <h3 id="contatos">Contatos</h3>
+        <form action="#" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" required />
+          <br />
+          <label for="assunto">Assunto:</label>
+          <select id="assunto" name="assunto" required>
+            <option value="">Selecione</option>
+            <option value="duvida">Dúvida</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="outro">Outro</option>
+          </select>
+          <br />
+          <label for="mensagem">Mensagem:</label>
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            cols="30"
+            rows="5"
+            required
+          ></textarea>
+          <br />
+          <input type="checkbox" id="newsletter" name="newsletter" />
+          <label for="newsletter">Quero receber novidades por email</label>
+          <br />
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </footer>
+  </body>
+</html>
