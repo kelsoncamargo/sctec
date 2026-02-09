@@ -3,38 +3,15 @@
 }
 
 p {
-  color: blue;
-  font-family: "Courier New", Courier, monospace;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.inline {
+  display: inline-block;
+  margin-top: 20px;
 }
 
-div {
-  height: 200px;
-  color: black;
-}
-
-a {
-  color: red;
-}
-
-#paragrafo1 {
-  font-weight: bold;
-}
-
-.negrito {
-  font-weight: bold;
-}
-
-p ~ a {
-  font-weight: bold;
-  color: green;
-}
-
-p > a {
-  font-weight: bold;
-  color: orange;
-}
-
-div a {
-  font-weight: bold;
-  color: purple;
+.block {
+  display: block;
 }
