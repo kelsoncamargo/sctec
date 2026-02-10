@@ -1,15 +1,24 @@
-body {
-  padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+.header {
+  background-color: yellow;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
 }
 
-.imagem-flutuante {
-  float: left;
-  width: 100px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+.relativo {
+  position: relative;
+  height: 100px;
+  background-color: blue;
 }
 
-.subtitulo {
-  clear: both;
+.absoluto {
+  position: absolute;
+  height: 50px;
+  background-color: red;
+  bottom: 0px;
+  right: 10px;
+  width: 20px;
 }
