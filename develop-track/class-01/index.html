@@ -9,32 +9,32 @@
     <h1>Aula 01</h1>
   </body>
   <script>
-    let numero1 = 1;
-    numero1 = numero1 + 1;
-    console.log(numero1);
+    let relogioAzul = true;
+    let temPonteiroSegundos = true;
 
-    let numero2 = 1;
-    numero2 = numero2 + 2;
-    console.log(numero2);
+    let resultado = relogioAzul && temPonteiroSegundos;
+    console.log(
+      "Relógio azul e com ponteiro de segundos? " + (resultado ? "sim" : "não"),
+    );
 
-    let numero3 = 1;
-    numero3 += 3;
-    console.log(numero3);
+    let num1 = 5;
+    let num2 = 9;
 
-    let numero4 = 1;
-    numero4 += 4;
-    console.log(numero4);
+    let resultado2 = num1 < num2 && num1 + num2 == 14;
+    console.log(
+      "Num1 é menor que Num2 e a soma é 14? " + (resultado2 ? "sim" : "não"),
+    );
 
-    let numero5 = 10;
-    numero5 -= 5;
-    console.log(numero5);
+    let resultado3 = num1 > num2 || num1 + num2 == 14;
+    console.log(
+      "Num1 é menor que Num2 ou a soma é 14? " + (resultado3 ? "sim" : "não"),
+    );
 
-    let numero6 = 10;
-    numero6 *= 6;
-    console.log(numero6);
-
-    let numero7 = 10;
-    numero7 /= 2;
-    console.log(numero7);
+    // Operator not
+    console.log("Relógio não azul? " + (!relogioAzul ? "sim" : "não"));
+    console.log(
+      "Relógio não azul e com ponteiro de segundos? " +
+        (!relogioAzul && temPonteiroSegundos ? "sim" : "não"),
+    );
   </script>
 </html>
