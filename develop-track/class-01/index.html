@@ -9,10 +9,19 @@
     <h1>Aula 01</h1>
   </body>
   <script>
-    let nome = "Kelson";
-    let sobreNome = "Camargo";
-    console.log("Seja bem vindo, " + nome + " " + sobreNome);
+    let camisaPreta = 49.99;
+    let camisaBranca = 39.99;
+    let camisaAzul = 29.99;
+    let camisaCinza = 19.99;
 
-    console.log(`Seja bem vindo, ${nome} ${sobreNome}`);
+    let somaTotalProdutos =
+      camisaPreta + camisaBranca + camisaAzul + camisaCinza;
+
+    let diferencaCamisaPretaCamisaAzul = camisaPreta - camisaAzul;
+
+    console.log(`A soma total dos produtos é: ${somaTotalProdutos}`);
+    console.log(
+      `A diferença entre a camisa preta e a camisa azul é: ${diferencaCamisaPretaCamisaAzul}`,
+    );
   </script>
 </html>
